@@ -427,14 +427,14 @@ p {
 --------------------------------------------------------------*/
 #hero {
   background: url("../img/home-bg.jpg") repeat scroll top center/cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 #hero .hero-content {
   height: 100vh;
   text-align: left;
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -468,6 +468,11 @@ p {
 .hero-content .list-social li i {
   color: #fff;
   font-size: 15px;
+}
+
+.profileContainer {
+  border-left:25em;
+  margin-left:25em;
 }
 
 /*--------------------------------------------------------------
