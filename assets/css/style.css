@@ -426,22 +426,25 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/home-bg.jpg") repeat scroll top center/cover;
   height: 100vh;
   width: 100%;
 }
 
 #hero .hero-content {
-  height: 150vh;
+  height: 100vh;
   text-align: left;
-  width: 100%;
+  width: 60%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin:0px;
+  border:0px;
+  padding: 0px;
 }
 
 .hero-content h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -451,7 +454,6 @@ p {
 .hero-content p {
   font-size: 13px;
   letter-spacing: 3px;
-  margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
   color: #fff;
